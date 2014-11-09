@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aqib.icrave.controller.MainActivity">
+
+    <item
+        android:id="@+id/action_portion_sizes"
+        android:title="@string/action_portion_sizes"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_consent"
+        android:title="@string/action_consent"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_login"
+        android:title="@string/login"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>
